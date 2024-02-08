@@ -122,7 +122,9 @@ h6 a {
 button:focus {
      outline: none;
 }
-
+room_bullet li{
+     list-style: circle;
+}
 ul,
 li,
 ol {
@@ -250,6 +252,7 @@ button {
 /*-- header area --*/
 
 
+
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 
 
@@ -264,12 +267,12 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 7px 0px 27px 0px;
      margin: 0 22px;
-     color: #010101;
+     color: white;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
      text-transform: uppercase;
-     border-bottom: #fff solid 3px;
+     border-bottom: black solid 3px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -292,9 +295,10 @@ button {
 
 .header {
      width: 100%;
+     color: black;
      height: 86px;
-     padding: 15px 0px 15px 0px;
-     background: #fff;
+     padding: 10px 0px 10px 0px;
+     background: black;
 }
 
 
@@ -555,6 +559,13 @@ button {
 .our_room .room .bed_room {
      padding: 33px 30px;
 }
+.bed_room li{
+
+     list-style-position: inside;
+     list-style-type: disc;
+     color: black;
+     text-decoration-style: solid;
+}
 
 .our_room .room .bed_room h3 {
      color: #121212;
@@ -765,6 +776,7 @@ button {
 	color:white;
 }
 
+
 .main_form .contactus {
      border: #fff solid 1px;
      padding: 0 15px;
@@ -836,6 +848,7 @@ button {
      margin-top: 0px;
      padding-top: 60px;
      text-align: center;
+
 }
 .footer_event {
      background: #0f1521;
@@ -984,24 +997,25 @@ ul.social_icon li a:hover {
 .copyright {
      margin-top: 60px;
      padding-bottom: 20px;
-     background-color: #fff;
+     background-color: black;
      border: #ff0909 solid 3px;
      border-right: inherit;
      border-left: inherit;
 }
 
 .copyright p {
-     color: #000;
+     color: black;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
      border-top: #a3aec6 solid 1px;
      padding-top: 25px;
      font-weight: normal;
+     color: white;
 }
 
 .copyright a {
-     color: #000;
+     color: white;
 }
 
 .copyright a:hover {
@@ -1016,6 +1030,13 @@ ul.social_icon li a:hover {
 .back_re {
      background-color: #0f1521;
 }
+.contact_head h2{
+	color:black;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom:50px;
+}
+
 .back_re .title {
      text-align: center;
 }
