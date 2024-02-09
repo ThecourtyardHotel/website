@@ -236,7 +236,7 @@ button {
 .loader {
      height: 100%;
      width: 100%;
-     position: absolute;
+     position: relative;
      left: 0;
      top: 0;
      display: flex;
@@ -254,7 +254,10 @@ button {
 
 
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
-
+.btn_room{
+     padding-bottom: 20px;
+     padding-inline: 5px;
+}
 
 /*-- navigation--*/
 
@@ -262,15 +265,18 @@ button {
      float: right;
      padding-top: 14px !important;
      padding: 0;
+     overflow: hidden;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 7px 0px 27px 0px;
+     padding: 7px 0px 17px 0px;
      margin: 0 22px;
      color: white;
+     float: left;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
+     font-size: 17px;
      text-transform: uppercase;
      border-bottom: black solid 3px;
 }
@@ -294,9 +300,9 @@ button {
 }
 
 .header {
-     width: 100%;
+     width: auto;
      color: black;
-     height: 86px;
+     height: auto;
      padding: 10px 0px 10px 0px;
      background: black;
 }
@@ -305,13 +311,13 @@ button {
 /** banner section **/
 
 .banner_main {
-     position: relative;
+     position: sticky;
 }
 
 .banner .carousel-indicators li {
      width: 20px;
      height: 20px;
-     border-radius: 30px;
+     border-radius: 10px;
      background: #000;
 }
 
@@ -321,7 +327,7 @@ button {
 
 .booking_ocline {
      position: absolute;
-     width: 100%;
+     width: auto;
      top: 50%;
      transform: translateY(-50%);
 }
@@ -372,7 +378,7 @@ button {
 
 .book_btn {
      background-color: #fe0000;
-     max-width: 189px;
+     max-width: 18px;
      width: 100%;
      margin: 0 auto;
      padding: 10px 0;
