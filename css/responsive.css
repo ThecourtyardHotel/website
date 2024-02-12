@@ -42,10 +42,10 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header {
-        height: 76px;
+        height: 30px;
     }
     .carousel-item img {
-        min-height: 570px;
+        min-height: 400px;
     }
     .carousel-indicators {
         bottom: 27px;
@@ -107,7 +107,7 @@
         height: 84px;
     }
     .carousel-item img {
-        min-height: 570px;
+        min-height: 50px;
     }
     .book_room h1 {
         font-size: 20px;
